@@ -8,7 +8,7 @@ form{
   width: min(calc(100% - 2rem), 32rem);
   min-height: 50vh;
   margin: clamp(1rem, 5vh, 3rem) auto;
-  background: linear-gradient(grey, white);
+  background: linear-gradient(rgb(219, 213, 213) 30%, rgb(236, 236, 236) 70%);
   box-shadow: 8px 6px 6px rgba(59, 59, 59, 0.87);
   border-radius: 8px;
   padding: clamp(1.25rem, 5vw, 2.5rem);
