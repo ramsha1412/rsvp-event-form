@@ -37,7 +37,7 @@ export default function App() {
       <input id="num-input" type="number" min="1" placeholder="Enter the number of attendees." name="attendees" value={formData.attendees} onChange={handleChange} required/>
 
       <label htmlFor="dietary-pref">Dietary Preference</label>
-      <input id="dietary-pref" type="text" name="dietaryPref" value={formData.dietaryPref} onChange={handleChange} />
+      <input id="dietary-pref" type="text" name="dietaryPref" value={formData.dietaryPref} onChange={handleChange} required/>
 
       <label htmlFor="guests">Additional Guests:</label>
       <input type="checkbox" id="guests" name="bringingGuests" checked={formData.bringingGuests} onChange={handleChange} />
